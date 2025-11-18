@@ -12,8 +12,8 @@ test('2 - 3 should be -1', () => {
   expect(sub(2, 3)).toBe(-1);
 });
 
-test('2 * 3 should be 9', () => {
-  expect(multi(2,3)).toBe(9);
+test('2 * 3 should be 6', () => {
+  expect(multi(2,3)).toBe(6);
 })
 
 test('3 * 3 should be 9', () => {
