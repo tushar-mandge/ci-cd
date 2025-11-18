@@ -13,9 +13,9 @@ test('2 - 3 should be -1', () => {
 });
 
 test('2 * 3 should be 9', () => {
-  except(multi(2,3)).toBe(9);
+  expect(multi(2,3)).toBe(9);
 })
 
 test('3 * 3 should be 9', () => {
-  except(multi(3,3)).toBe(9);
+  expect(multi(3,3)).toBe(9);
 })
